@@ -4,7 +4,7 @@ gem 'rails', '3.2.6'
 # gem "devise", "~> 2.1.0"
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3' # change to pg
   gem 'rspec-rails', '2.10.0'
   gem 'guard-rspec', '0.5.5'
   gem 'capybara', '1.1.2'
