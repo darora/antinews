@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
-# gem "devise", "~> 2.1.0"
+gem "devise", "~> 2.1.0"
+gem "pg", "~> 0.14.0"
 
 group :development, :test do
   gem 'sqlite3' # change to pg
