@@ -7,4 +7,11 @@ describe HomeController do
       response.should render_template("index")
     end
   end
+
+  describe "GET about" do
+    it "renders about.html" do
+      get "about"
+      response.should render_template("about")
+    end
+  end
 end
